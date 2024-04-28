@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputs{
+    @apply w-full border-2 border-gray-400 rounded-xl p-2 mt-1 bg-transparent
+}
+.icons{
+    @apply w-4 font-bold mt-5
+}
+.btn{
+    @apply bg-pink-700 w-[200px] hover:bg-slate-300 text-gray-700 font-bold py-2 px-4 ml-28 my-4 rounded 
+}
+.cards{
+    display: flex;
+    padding-left: 20px;
+    width: 40%;
+    /* margin: 16px; */
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    border-radius: 5px;
+    /* padding: 40px; */
+    /* img {
+      margin-bottom: 32px;
+    } */
+  }
+ 
+  
+  .card-title {
+    font-weight: 600;
+    color: rgb(172, 31, 54);
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 28px;
+    padding-bottom: 8px;
+  }
+  .images{
+    width: 400%;
+  }
